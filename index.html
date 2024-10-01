@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practica JavaScript</title>
+    <link rel="stylesheet" href="css/estilo.css">
+</head>
+<body onload="alert('JavaScript con eventos!')"> 
+    <script>
+        alert("Hola Mundo | Desde JavaScript")
+        function pulsar(nombre){
+            alert("Hola " + nombre + " diste clic en el boton")
+        }
+    </script>
+    <h3> Esto es HTML</h3>
+    <button onclick="pulsar('Deb')"> Pulsame | PUSH ME ahh</button> 
+    <button onclick="saludar()"> HELLO DUMP</button> 
+    <button onclick="calcularPromedio()">Entrada de datos Prompt  </button>
+    <button onclick="Confirmar()"> Confimar </button>
+    <button onclick="objetos()"> Objetos</button>
+    <button onclick="tiempo()"> Tiempo</button>
+    <button onclick="destructurarObjeto()"> Objeto</button>
+    
+
+    <script src="js/funciones.js"></script>
+</body>
+</html>
